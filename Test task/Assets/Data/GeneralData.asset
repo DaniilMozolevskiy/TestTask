@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5402637035b2db54cb170cb81ccba0f8, type: 3}
+  m_Name: GeneralData
+  m_EditorClassIdentifier: 
+  playerSprite: {fileID: 21300000, guid: 9a659cf78124df94aa36c0588c52d9b3, type: 3}
+  playerSpeed: 1.5
+  enemySprite: {fileID: 21300000, guid: b5ad115f52946f14e89b3fdf7ce8786b, type: 3}
+  enemySpeed: 0.8
+  enemyGenerateCount: 1
+  enemyGenerateInterval: 10
+  coefficientSpeed: 0.05
+  scoreGenerateCount: 1
+  scoreGenerateInterval: 2
+  bonusGenerateInterval: 3
+  timeBonus: 5
+  bonusPrefabs:
+  - {fileID: 1053065429697379419, guid: a5c2646da0658ad4e90d6e57e80e3db4, type: 3}
+  - {fileID: 5550672790307158908, guid: 67078202447e3ab448cf8867de355142, type: 3}
+  - {fileID: 6241420352806286408, guid: 99be029efe9da4249b7b27076b649627, type: 3}
